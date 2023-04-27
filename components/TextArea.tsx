@@ -11,7 +11,7 @@ export default function TextArea(props: any) {
   }, [props.tweet]);
 
   return (
-    <div className="space-y-8 space-x-4 flex flex-col items-center mx-auto md:w-1/3">
+    <div className="space-y-4 md:space-x-4 flex flex-col items-center mx-auto md:w-1/3">
       <Toaster
         position="top-center"
         reverseOrder={false}
