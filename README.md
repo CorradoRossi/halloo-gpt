@@ -8,7 +8,7 @@ This project generates quirky personalized Twitter greetings using AI.
 
 This project uses the [ChatGPT API](https://openai.com/api/) and [Vercel Edge functions](https://vercel.com/features/edge-functions) with streaming. It queries a Twitter users recent tweets and then, based on the form and user input, sends the data to the chatGPT API via a Vercel Edge function and streams a custom personalized tweet greeting back to the application.
 
-Thanks to @nutlope and his [twitterbio](https://github.com/Nutlope/twitterbio) project for the inspiration and the code for the Twitter API connection.
+Thanks to @nutlope and his [twitterbio](https://github.com/Nutlope/twitterbio) project for the inspiration and the code for the OpenAI API edge connection.
 
 ## Running Locally
 
