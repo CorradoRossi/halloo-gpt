@@ -10,7 +10,7 @@ import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
 import TweetDropDown from "../components/TweetDropDown";
 import TextArea from "../components/TextArea";
-import { Data, TweetData } from "../utils/tweetData";
+import { Data, TweetData } from "../utils/TweetData";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<boolean>(false);
