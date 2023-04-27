@@ -11,7 +11,11 @@ export default function TextArea(props: any) {
   }, [props.tweet]);
 
   return (
-    <div className="space-y-4 md:space-x-4 flex flex-col items-center mx-auto md:w-1/3">
+    <div
+      id={props.id}
+      key={props.id}
+      className="space-y-4 md:space-x-4 flex flex-col items-center mx-auto md:w-1/3"
+    >
       <Toaster
         position="top-center"
         reverseOrder={false}
@@ -20,14 +24,13 @@ export default function TextArea(props: any) {
       <div
         className="bg-white rounded-xl shadow-lg p-4 hover:bg-gray-100 transition cursor-copy border"
         onClick={() => {
-          navigator.clipboard.writeText(text);
+          navigator.clipboard.writeText(props.tweet);
           toast("Copy text", {
             icon: "👍",
           });
         }}
-        key={text}
       >
-        <p>{text}</p>
+        <p>{props.tweet}</p>
       </div>
     </div>
   );
