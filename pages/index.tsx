@@ -9,6 +9,8 @@ import Github from "../components/GitHub";
 import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
 import TweetDropDown from "../components/TweetDropDown";
+import TextArea from "../components/TextArea";
+import { TweetData } from "../utils/tweetData";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -240,6 +242,12 @@ const Home: NextPage = () => {
               )}
             </>
           )}
+        </div>
+        <div className="flex flex-row flex-wrap justify-center justify-items-center content-stretch align-start p-4 columns-3">
+          {TweetData.map((item) => {
+            console.log(item);
+            return <TextArea key={item.id} id={item.id} tweet={item.text} />;
+          })}
         </div>
       </main>
       <Footer />
