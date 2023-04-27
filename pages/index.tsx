@@ -159,7 +159,7 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>*/}
         <h1 className="sm:text-4xl text-2xl max-w-[708px] font-bold text-slate-900">
-          Wanna make an impression? Enter someone's Twitter handle and let
+          Wanna make an impression? Enter someone's Twitter handle and let AI
           wizardry do the rest.
         </h1>
         <div className="max-w-xl w-full">
