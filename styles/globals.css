@@ -9,6 +9,7 @@
 
 .body-bg-img {
   min-height: 900px;
+  max-height: 900px;
   background-image: url(https://uploads-ssl.webflow.com/5f23b456c81e6bebb921e9cb/639989cf49dddb2de4c00c37_Dotted-gradient-mesh-MAIN.jpg);
   background-position: 50%;
   background-size: cover;
