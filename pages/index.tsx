@@ -136,7 +136,7 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              GPT will analyze their twitter history to personalize your message
+              GPT will analyze their twitter history to personalize the message
               .<span className="text-slate-500"></span>
             </p>
           </div>
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
             <p className="text-left font-medium">
-              Would you rather craft a tweet or send a direct message ?
+              Do you want to craft a tweet or send a direct message ?
             </p>
           </div>
           <div className="block">
@@ -164,7 +164,7 @@ const Home: NextPage = () => {
           <div className="flex mt-10  mb-5 items-center space-x-3">
             <Image src="/3_blacksm.png" width={30} height={30} alt="1 icon" />
             <p className="text-left font-medium">
-              Set the tone. What vibe are you going for ?
+              It's time to set the tone. What vibe are you going for ?
             </p>
           </div>
           <div className="block">
