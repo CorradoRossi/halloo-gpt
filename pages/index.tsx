@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Github from "../components/GitHub";
 import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
-import DropDownV2 from "../components/DropDownV2";
+import TweetDropDown from "../components/TweetDropDown";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -189,7 +189,7 @@ const Home: NextPage = () => {
             <p className="text-left font-medium">Tweet or message ?</p>
           </div>
           <div className="block">
-            <DropDownV2
+            <TweetDropDown
               contact={contact}
               setContact={(contact) => setContact(contact)}
             />

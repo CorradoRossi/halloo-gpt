@@ -17,9 +17,9 @@ interface DropDownProps {
   setContact: (contact: ContactType) => void;
 }
 
-let contacts: ContactType[] = ["Message" ,"Tweet" ];
+let contacts: ContactType[] = ["Message", "Tweet"];
 
-export default function DropDownV2({ contact, setContact }: DropDownProps) {
+export default function TweetDropDown({ contact, setContact }: DropDownProps) {
   return (
     <Menu as="div" className="relative block text-left w-full">
       <div>
