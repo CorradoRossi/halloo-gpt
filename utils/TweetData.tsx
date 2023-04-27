@@ -14,7 +14,7 @@ export const Data = [
   },
   {
     id: 3,
-    text: "Embarking on a new goal:Write a sci-fi novel. Thinking...(Restart if this takes more than 30 seconds)Added task:Generate a list of potential sci-fi plotlines and themes",
+    text: "@elonmusk overall sentiment score: 5 The collection of tweets by @elonmusk shows a mixture of positive and negative sentiment, with a slightly more neutral tone overall. Some tweets express frustration with specific issues such as government regulations or tech problems, while others express excitement or interest in various topics such as AI and cryptocurrency. Some tweets also show a sense of humor or playfulness. However, there are no clear patterns in sentiment that would indicate a consistently positive or negative attitude. Therefore, the overall sentiment score is 5, representing a neutral tone.",
   },
   {
     id: 4,
