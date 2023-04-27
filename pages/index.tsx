@@ -59,9 +59,7 @@ const Home: NextPage = () => {
     setLoading(true);
     const response = await fetch("/api/generate", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt }),
     });
     if (!response.ok) {
@@ -117,7 +115,7 @@ const Home: NextPage = () => {
           <p>View on GitHub</p>
         </a>
         <h1 className="sm:text-4xl text-2xl max-w-[708px] font-bold text-slate-900">
-          Wanna make an impression? Enter someone's Twitter handle and let AI
+          Want to make an impression? Enter someone's Twitter handle and let AI
           wizardry do the rest.
         </h1>
         <div className="max-w-xl w-full">
@@ -209,7 +207,6 @@ const Home: NextPage = () => {
                   <p>{generatedTweet}</p>
                 </div>
               </div>
-              {/* if contact is tweet i want to add a tweet button to make the user tweet it  i also want to say that the tweet is generated throught the app hallooGPT */}
               {contact === "Tweet" && (
                 <div className="flex flex-col items-center justify-center">
                   <a
