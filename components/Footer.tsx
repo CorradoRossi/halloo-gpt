@@ -17,7 +17,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/corradorossi"
+          href="https://github.com/CorradoRossi/halloo-gpt"
           className="group"
           aria-label="metastash on GitHub"
         >
