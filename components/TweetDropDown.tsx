@@ -10,14 +10,14 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export type ContactType = "Message" | "Tweet" | string;
+export type ContactType = "Personal Message" | "Tweet" | string;
 
 interface DropDownProps {
   contact: ContactType;
   setContact: (contact: ContactType) => void;
 }
 
-let contacts: ContactType[] = ["Message", "Tweet"];
+let contacts: ContactType[] = ["Personal Message", "Tweet"];
 
 export default function TweetDropDown({ contact, setContact }: DropDownProps) {
   return (

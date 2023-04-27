@@ -140,7 +140,7 @@ const Home: NextPage = () => {
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Tweet or message ?</p>
+            <p className="text-left font-medium">Tweet or personal message ?</p>
           </div>
           <div className="block">
             <TweetDropDown
@@ -218,6 +218,20 @@ const Home: NextPage = () => {
                     className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Tweet it &rarr;
+                  </a>
+                </div>
+              )}
+              {contact === "Personal Message" && (
+                <div className="flex flex-col items-center justify-center">
+                  <a
+                    href={`https://twitter.com/messages/compose?username=${handle}&text=${
+                      generatedTweet + `%0a` + `%0a` + addendum
+                    }`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                  >
+                    Send direct message &rarr;
                   </a>
                 </div>
               )}
