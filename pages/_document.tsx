@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="description"
             content="Generate your next halloo in seconds."
           />
-          <meta name="og:title" content="HallooGPT" />
+          <meta name="og:title" content="Halloo" />
           <meta
             name="og:description"
             content="Generate your next halloo in seconds."
@@ -18,23 +18,20 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@metastash" />
           <meta name="twitter:creator" content="@metastash" />
-          <meta name="twitter:title" content="HallooGPT" />
+          <meta name="twitter:title" content="Halloo" />
           <meta
             name="twitter:description"
             content="Generate your next halloo in seconds."
           />
           <meta
             name="twitter:image"
-            content="https://halloo-gpt.vercel.app/og.png"
+            content="https://halloo.dev/vercelLogo.png"
           />
-          <meta
-            name="og:image"
-            content="https://halloo-gpt.vercel.app/og.png"
-          />
+          <meta name="og:image" content="https://halloo.dev/vercelLogo.png" />
           <meta name="og:image:width" content="1200" />
           <meta name="og:image:height" content="630" />
-          <meta name="og:url" content="https://halloo-gpt.vercel.app/" />
-          <meta name="og:site_name" content="HallooGPT" />
+          <meta name="og:url" content="https://halloo.dev/" />
+          <meta name="og:site_name" content="Halloo" />
           <meta name="og:type" content="website" />
         </Head>
         <body>

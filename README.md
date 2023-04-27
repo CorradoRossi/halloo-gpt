@@ -1,8 +1,8 @@
-# [HallooGPT](https://halloo-gpt.vercel.app)
+# [Halloo](https://halloo.dev)
 
 This project generates quirky personalized Twitter greetings using AI.
 
-[![HalloGPT-image](./public/screenshot.png)](https://halloo-gpt.vercel.app)
+[![HalloGPT-image](./public/screenshot.png)](https://halloo.dev)
 
 ## How it works
 
