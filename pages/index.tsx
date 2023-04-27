@@ -184,7 +184,7 @@ const Home: NextPage = () => {
           reverseOrder={false}
           toastOptions={{ duration: 2000 }}
         />
-        <hr className="h-px bg-gray-700 border-1 dark:bg-gray-700" />
+        <hr className="shadow-sm h-px bg-gray-700 border-1 dark:bg-gray-700" />
         <div className="space-y-10 my-10">
           {generatedTweet && (
             <>
@@ -198,7 +198,7 @@ const Home: NextPage = () => {
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 <div
-                  className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
+                  className="bg-gray-100 rounded-xl shadow-lg p-4 hover:bg-gray-200 transition cursor-copy border"
                   onClick={() => {
                     navigator.clipboard.writeText(generatedTweet);
                     toast("Tweet generated", {
@@ -218,7 +218,7 @@ const Home: NextPage = () => {
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Tweet it &rarr;
                   </a>
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Send direct message &rarr;
                   </a>
