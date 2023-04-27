@@ -108,7 +108,7 @@ const Home: NextPage = () => {
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-6">
-        <a
+        {/*<a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
           href="https://github.com/CorradoRossi/halloo-gpt"
           target="_blank"
@@ -116,10 +116,10 @@ const Home: NextPage = () => {
         >
           <Github />
           <p>View on GitHub</p>
-        </a>
+        </a>*/}
         <h1 className="sm:text-4xl text-2xl max-w-[708px] font-bold text-slate-900">
-          Want to make an impression? Enter a Twitter handle and get a
-          distinctive tweetable greeting via AI wizardry.
+          Want to make an impression? Enter a Twitter handle and let GPT draft a
+          personalized introduction for you
         </h1>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
@@ -161,7 +161,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-white font-medium px-10 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               onClick={async (e) => {
                 generateDataUser(handle),
                   generateHalloo(e, await generatePrompt(handle, vibe));
@@ -172,7 +172,7 @@ const Home: NextPage = () => {
           )}
           {loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               disabled
             >
               <LoadingDots color="white" style="large" />
@@ -198,7 +198,7 @@ const Home: NextPage = () => {
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 <div
-                  className="bg-gray-100 rounded-xl shadow-lg p-4 hover:bg-gray-200 transition cursor-copy border"
+                  className="bg-white rounded-xl shadow-lg p-4 hover:bg-gray-100 transition cursor-copy border"
                   onClick={() => {
                     navigator.clipboard.writeText(generatedTweet);
                     toast("Tweet generated", {
@@ -218,7 +218,7 @@ const Home: NextPage = () => {
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Tweet it &rarr;
                   </a>
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Send direct message &rarr;
                   </a>

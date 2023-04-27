@@ -34,7 +34,7 @@ class MyDocument extends Document {
           <meta name="og:site_name" content="Halloo" />
           <meta name="og:type" content="website" />
         </Head>
-        <body>
+        <body className="body-bg-img">
           <Main />
           <NextScript />
         </body>
