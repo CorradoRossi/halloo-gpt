@@ -168,7 +168,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               onClick={async (e) => {
                 generateDataUser(handle),
                   generateHalloo(e, await generatePrompt(handle, vibe));
@@ -179,7 +179,7 @@ const Home: NextPage = () => {
           )}
           {loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               disabled
             >
               <LoadingDots color="white" style="large" />
@@ -221,11 +221,11 @@ const Home: NextPage = () => {
                 <div className="flex flex-col items-center justify-center">
                   <a
                     href={`https://twitter.com/intent/tweet?text=${
-                      generatedTweet + "%0a" + "%0a" + addendum
+                      generatedTweet + `%0a` + `%0a` + addendum
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-4 sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Tweet it &rarr;
                   </a>
@@ -235,11 +235,11 @@ const Home: NextPage = () => {
                 <div className="flex flex-col items-center justify-center">
                   <a
                     href={`https://twitter.com/messages/compose?username=${handle}&text=${
-                      generatedTweet + "%0a" + "%0a" + addendum
+                      generatedTweet + `%0a` + `%0a` + addendum
                     }`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+                    className="bg-twitter shadow-sm rounded-xl text-white font-medium px-4 py-4  sm:mt-10 mt-8 hover:bg-black/80 w-full"
                   >
                     Send direct message &rarr;
                   </a>
