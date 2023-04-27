@@ -131,8 +131,8 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              GPT will analyze their twitter history and personalize your
-              message .<span className="text-slate-500"></span>
+              GPT will analyze their twitter history to personalize your message
+              .<span className="text-slate-500"></span>
             </p>
           </div>
           <textarea
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
             <p className="text-left font-medium">
-              Craft a tweet and @ them publicly or send a direct message ?
+              Would you rather craft a tweet or send a direct message ?
             </p>
           </div>
           <div className="block">
@@ -159,8 +159,7 @@ const Home: NextPage = () => {
           <div className="flex mt-10  mb-5 items-center space-x-3">
             <Image src="/3_blacksm.png" width={30} height={30} alt="1 icon" />
             <p className="text-left font-medium">
-              Keep it light and silly or get sincere. What vibe are you going
-              for ?
+              Set the tone. What vibe are you going for ?
             </p>
           </div>
           <div className="block">
