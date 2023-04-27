@@ -246,11 +246,11 @@ const Home: NextPage = () => {
             </>
           )}
         </div>
-        <div className="flex flex-col sm:flex-row flex-wrap flex-none justify-center justify-items-center sm:content-stretch align-start p-4 columns-3">
+        {/*<div className="flex flex-col sm:flex-row flex-wrap flex-none justify-center justify-items-center sm:content-stretch align-start p-4 columns-3">
           {tweetData.map((item) => (
             <TextArea key={item.id} id={item.id} tweet={item.text} />
           ))}
-        </div>
+        </div>*/}
       </main>
       <Footer />
     </div>
