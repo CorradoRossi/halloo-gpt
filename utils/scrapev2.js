@@ -1,10 +1,12 @@
+import Twitter from "twitter";
+
 // Set up Twitter API client with your credentials
-const client = {
+const client = new Twitter({
   consumer_key: process.env.consumer_key?.toString(),
   consumer_secret: process.env.consumer_secret?.toString(),
   access_token_key: process.env.access_token_key?.toString(),
   access_token_secret: process.env.access_token_secret?.toString(),
-};
+});
 
 // Define a function to scrape the latest 10 tweets of a user
 export async function scrapeTweets(username) {

@@ -12,7 +12,7 @@ const client = new Twitter({
 export async function scrapeTweets(username: string): Promise<string[]> {
   const params = {
     screen_name: username,
-    count: 100,
+    count: 50,
   };
   // Make a request to the Twitter API to get the latest tweets of the user
   const response = await client.get("statuses/user_timeline", params);
