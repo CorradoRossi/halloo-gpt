@@ -23,11 +23,8 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Generate your next halloo in seconds."
           />
-          <meta
-            name="twitter:image"
-            content="https://halloo.dev/vercelLogo.png"
-          />
-          <meta name="og:image" content="https://halloo.dev/vercelLogo.png" />
+          <meta name="twitter:image" content="https://halloo.dev/logo_bg.png" />
+          <meta name="og:image" content="https://halloo.dev/logo_bg.png" />
           <meta name="og:image:width" content="1200" />
           <meta name="og:image:height" content="630" />
           <meta name="og:url" content="https://halloo.dev/" />
