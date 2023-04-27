@@ -12,7 +12,7 @@ Thanks to @nutlope and his [twitterbio](https://github.com/Nutlope/twitterbio) p
 
 ## Running Locally
 
-After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a `.env` file.
+After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a `.env` file. You'll also need to add your Twitter API keys to the `.env` file. You can get those [here](https://developer.twitter.com/en/portal/dashboard).
 
 Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
