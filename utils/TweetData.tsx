@@ -1,4 +1,9 @@
-export const TweetData = [
+export interface TweetData {
+  id: number;
+  text: string;
+}
+
+export const Data = [
   {
     id: 1,
     text: "Hey @metastash, I couldn't help but notice your recent tweets. You're like a human meme machine! 😂 Your humor is infectious and I can't help but chuckle every time I see one of your posts. Keep up the good work and keep making us all laugh! 👍😎 #comedygold",
@@ -22,5 +27,9 @@ export const TweetData = [
   {
     id: 6,
     text: "Hey @metastash, I couldn't help but notice your recent tweets. You're like a human meme machine! 😂 Your humor is infectious and I can't help but chuckle every time I see one of your posts.",
+  },
+  {
+    id: 7,
+    text: "Hey @metastash, looks like your creativity is on point! Your tweets are a breath of fresh air in my timeline. Keep up the good work and keep inspiring us with your wit and humor. Cheers to more clever tweets from you!",
   },
 ];
