@@ -16,8 +16,8 @@ class MyDocument extends Document {
             content="Generate your next halloo in seconds."
           />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@vulture990" />
-          <meta name="twitter:creator" content="@vulture990" />
+          <meta name="twitter:site" content="@metastash" />
+          <meta name="twitter:creator" content="@metastash" />
           <meta name="twitter:title" content="HallooGPT" />
           <meta
             name="twitter:description"
