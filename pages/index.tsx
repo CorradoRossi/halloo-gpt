@@ -107,7 +107,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-14">
+      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-6">
         <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
           href="https://github.com/CorradoRossi/halloo-gpt"
@@ -118,8 +118,8 @@ const Home: NextPage = () => {
           <p>View on GitHub</p>
         </a>
         <h1 className="sm:text-4xl text-2xl max-w-[708px] font-bold text-slate-900">
-          Want to make an impression? Enter someone's Twitter handle and let AI
-          wizardry do the rest.
+          Want to make an impression? Enter a Twitter handle and get a
+          distinctive tweetable greeting via AI wizardry.
         </h1>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
@@ -143,7 +143,7 @@ const Home: NextPage = () => {
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Tweet or personal message ?</p>
+            <p className="text-left font-medium">Tweet or direct message ?</p>
           </div>
           <div className="block">
             <TweetDropDown
