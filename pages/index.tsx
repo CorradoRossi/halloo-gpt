@@ -216,7 +216,7 @@ const Home: NextPage = () => {
                   className="bg-gray-100 rounded-xl shadow-lg p-4 hover:bg-gray-200 transition cursor-copy border"
                   onClick={() => {
                     navigator.clipboard.writeText(generatedTweet);
-                    toast("Tweet generated", {
+                    toast("Tweet text copied to clipboard", {
                       icon: "👍",
                     });
                   }}
